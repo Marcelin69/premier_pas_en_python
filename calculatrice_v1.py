@@ -1,5 +1,5 @@
-nbre_1 = int(input("Entrez un nombre  : "))
-nbre_2 =  int(input("Entrez un nombre : "))
+nbre_1 = float(input("Entrez un nombre  : "))
+nbre_2 =  float(input("Entrez un nombre : "))
 
 # operateur = input("Entrez votre operatuer mathematique : ")
 

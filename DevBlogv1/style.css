@@ -1,0 +1,134 @@
+
+body{
+    margin: 0;
+    font-size: 20px;
+}
+header ul{
+    padding:2rem;
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1rem; 
+    margin: 0px; 
+}
+ul div{
+    display: flex;
+    justify-content: space-between;
+}
+ul div li{
+   margin-right: 10px;
+}
+header a {
+    text-decoration: none;
+}
+a{
+    color: rgb(49, 49, 237);
+
+}
+
+.presantation{
+    background-color: rgb(192, 212, 212);
+    padding:2rem;
+    margin: 9px 0rem;
+    display: flex;
+    justify-content: center;
+}
+.presantation .sous-presantation{
+    width: 60%;   
+}
+.souspresantation{
+    display: flex;
+    padding: 2rem 0rem;
+}
+
+
+.souspresantation .img-prese{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;   
+
+}
+.souspresantation .img-prese img{
+    width: 240px;
+    height: 250px;
+    border-radius: 100px;
+}
+
+.projets{
+    padding:2rem;
+    margin: 4px 0rem;
+    display: flex;
+    justify-content: center;
+}
+.projets .sous-projets{
+    width: 60%;
+
+}
+.sousprojets1{
+    display: flex;
+}
+.sousprojets1 div{
+    margin-left: 2rem;
+}
+.sousprojets3 div{
+    margin-left: 2rem;
+}
+.sousprojets2 div{
+    margin-right: 2rem;
+}
+.sousprojets2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sousprojets3{
+    display: flex;
+}
+.sous-projets a{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.articles{
+    background-color: rgb(192, 212, 212);
+
+    padding:2rem;
+    margin: 4px 0rem;
+    display: flex;
+    justify-content: center;
+}
+.articles .sous-articles{
+       width: 60%;
+
+}
+.sousarticles a{
+ text-decoration: none;
+}
+.sous-articles .act{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact{
+    padding:2rem;
+    margin: 4px 0rem;
+    display: flex;
+    justify-content: center;
+}
+.contact .sous-contact{
+        width: 60%;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer ul li{
+    margin-left: 2rem;
+}
